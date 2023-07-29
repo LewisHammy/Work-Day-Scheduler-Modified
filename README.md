@@ -8,7 +8,7 @@ When you first view the planner application, you will find the current date. To 
 
 ## Deployed URL
 
-
+https://lewishammy.github.io/Work-Day-Scheduler-Modified/
 
 ## Screenshot 
 
