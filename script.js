@@ -7,12 +7,13 @@ $(function () {
   $("#currentDay").text(currentDate);
 });
 
-// Time Boxes from 9am - 5pm
+// Time Boxes from 9am (9) - 5pm (17)
 $(function () {
 
   for (var i = 9; i <= 17; i++) {
     var timeBlockId = "hour-" + i;
-    var displayHour = i > 12 ? i - 12 + "PM" : i + "AM"; // Convert to 12-hour format
+    // Convert to 12-hour time
+    var displayHour = i > 12 ? i - 12 + "PM" : i + "AM"; 
     
     // Creates time-block element 
     var timeBlock = $("<div>").attr("id", timeBlockId).addClass("row time-block");
@@ -20,7 +21,7 @@ $(function () {
     // Creates hour element
     var hour = $("<div>").addClass("col-2 col-md-1 hour text-center py-3").text(displayHour);
     
-    // Creates textarea element
+    // Creates text area element
     var textarea = $("<textarea>").addClass("col-8 col-md-10 description").attr("rows", "3");
     
     // Creates save button element
