@@ -1,6 +1,6 @@
 # Description
 
-This a functional and working planner that wants to plan a 9am to 5pm schedule. 
+This a functional and working planner for 9am to 5pm schedule. 
 
 ## Usage
 
